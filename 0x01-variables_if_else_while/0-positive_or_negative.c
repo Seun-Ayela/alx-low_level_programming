@@ -23,17 +23,14 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%i is positive\n", n);
-		return (1);
 	}
 	if (n == 0)
 	{
 		printf("%i is zero\n", n);
-		return (1);
 	}
 	if (n < 0)
 	{
 		printf("%i is negative\n", n);
-		return (1);
 	}
 	return (0);
 }
