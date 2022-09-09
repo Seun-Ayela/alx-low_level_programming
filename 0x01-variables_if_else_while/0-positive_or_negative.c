@@ -3,6 +3,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - main block
+ *
+ * Return: 0
+ */
+
 int main(void)
 {
 	int n;
@@ -10,6 +16,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
+	scanf("%i", &n);
 	if (n > 0)
 	{
 		printf("is positive");
@@ -21,10 +28,6 @@ int main(void)
 	if (n < 0)
 	{
 		printf("is negative");
-	}
-	else
-      	{
-		printf("nothing\n");
 	}
 
 return (0);
