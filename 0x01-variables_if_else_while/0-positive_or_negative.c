@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
+#include <stdio.h>
 
 /* betty style doc for function main goes there */
 /**
@@ -21,19 +22,18 @@ int main(void)
 	scanf("%i", &n);
 	if (n > 0)
 	{
-		write("is positive\n");
+		printf("is positive\n");
 		return (1);
 	}
 	if (n == 0)
 	{
-		write("is zero\n");
+		printf("is zero\n");
 		return (1);
 	}
 	if (n < 0)
 	{
-		write("is negative\n");
+		printf("is negative\n");
 		return (1);
 	}
-
-	return (0);
-}
+return (0);   
+}  
