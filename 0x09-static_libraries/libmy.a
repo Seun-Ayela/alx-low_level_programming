@@ -1,5 +1,4 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#include main.h
 
 0-isupper.o
 0-memset.o
@@ -21,5 +20,3 @@
 6-abs.o
 9-strcpy.o
 _putchar.o
-
-#endif
